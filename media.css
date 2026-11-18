@@ -1,0 +1,154 @@
+/* Mobile Styles */
+@media (max-width: 600px) {
+    .header {
+        /*height: auto;*/
+        height: 10vh;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .header-img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-img img {
+       /* width: 70%;
+        height: auto;*/
+        width: 40%;
+        height: 10vh;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .banner-col, .banner-col2 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .banner-text {
+        font-size: 28px;
+        padding: 10px 0;
+    }
+
+    .subscribe-btn {
+        width: 90%;
+        height: auto;
+    }
+
+    .latest-slide img, .slide img {
+        height: 25vh;
+    }
+
+    .topic-col, .categories-col {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .topic-col div, .categories-col div {
+        margin-bottom: 20px;
+    }
+
+    .contact-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-col, .contact-form {
+        width: 100%;
+        margin: 0;
+    }
+
+    .input-col, .input-col-textarea {
+        width: 100%;
+    }
+
+    .form-btn {
+        width: 80%;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .header {
+        height: auto;
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+    .header-img img {
+        width: 80%;
+    }
+
+    .banner-col, .banner-col2 {
+        width: 50%;
+        padding: 30px;
+    }
+
+    .banner-text {
+        font-size: 32px;
+    }
+
+    .latest-slide img, .slide img {
+        height: 30vh;
+    }
+
+    .topic-col, .categories-col {
+        flex-wrap: wrap;
+    }
+
+    .topic-col div, .categories-col div {
+        margin: 10px;
+    }
+
+    .contact-col, .contact-form {
+        width: 100%;
+    }
+
+    .input-col, .input-col-textarea {
+        width: 100%;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    .header {
+        height: 17vh;
+    }
+
+    .header-img img {
+        width: 85%;
+    }
+
+    .banner-col, .banner-col2 {
+        width: 50%;
+        padding: 90px;
+    }
+
+    .banner-text {
+        font-size: 35px;
+    }
+
+    .latest-slide img, .slide img {
+        height: 35vh;
+    }
+
+    .topic-col, .categories-col {
+        flex-direction: row;
+        margin-left: 15%;
+    }
+
+    .contact-col, .contact-form {
+        width: 50%;
+    }
+
+    .input-col, .input-col-textarea {
+        width: 75%;
+    }
+}

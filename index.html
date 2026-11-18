@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVJ Tech Tamil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-brand">
+            <img src="images/logo.png" alt="SVJ Tech Tamil logo" loading="lazy">
+            <a href="#" class="logo">SVJ Tech Tamil</a>
+        </div>
+
+        <input type="checkbox" id="nav-toggle" aria-hidden="true">
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+        </label>
+
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#latest-videos">VIDEOS</a>
+            <a href="#upcoming-videos">UPCOMING</a>
+            <a href="#categories">CATEGORIES</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <!-- Hero/Banner Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="youtube-logo">
+                    <img src="images/YouTube-logo.png" alt="YouTube Logo" loading="lazy">
+                </div>
+                <h1 class="hero-title">SVJ Tech Tamil</h1>
+                <a href="https://www.youtube.com/@svjtechtamil" target="_blank" rel="noopener noreferrer" class="btn-primary">SUBSCRIBE NOW</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/PersonImg.png" alt="Channel Persona" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Videos Section -->
+    <section id="latest-videos" class="section">
+        <div class="container">
+            <h2 class="section-title">Latest Videos</h2>
+            <div class="slider-container">
+                <div class="slider latest-slider"></div>
+                <button class="slider-btn prev-btn" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next-btn" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="section">
+        <div class="container">
+            <h2 class="section-title">Popular Topics</h2>
+            <p class="section-subtitle">Take the next step in your career. Get hands-on with the industry's most in-demand technologies.</p>
+            <div class="topics-grid"></div>
+        </div>
+    </section>
+
+    <!-- Upcoming Videos Section -->
+    <section id="upcoming-videos" class="section">
+        <div class="container">
+            <h2 class="section-title">Upcoming Videos</h2>
+            <div class="slider-container">
+                <div class="slider upcoming-slider"></div>
+                <button class="slider-btn prev-btn" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next-btn" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscriber Count Section -->
+    <section class="subscriber-section">
+        <div class="container">
+            <h2 class="section-title">SUBSCRIBERS</h2>
+            <div class="subscriber-count">
+                <p class="count-label">LIVE COUNT</p>
+                <p class="count-number" id="subscriber-count">7.72k</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Something in your <span class="accent-text">mind</span>?</h3>
+                    <p>Let's talk</p>
+                    <p class="contact-description">Send us a message and let's discuss about your ideas, suggestions, and more</p>
+                </div>
+                <form class="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; Copyright 2024 by SVJ Technologies</p>
+                    <p>All Rights Reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
